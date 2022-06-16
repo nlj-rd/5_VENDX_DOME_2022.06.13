@@ -1,0 +1,29 @@
+;System_VP
+PIC_Now   EQU   14H
+
+
+
+;OS_VP
+MODBUS_SP  EQU  710H
+MODBUS_STA    EQU  712H
+MODBUS_RW_STA  EQU  713H
+MODBUS_Cnt  EQU  714H
+
+MODBUS_CMD_Buff  EQU  71EH
+
+
+
+;DGUS_VP 0x1080---
+
+
+
+
+
+;Modbus_VP
+Modbus_EN  EQU  E000H
+Modbus_Mode  EQU  E001H
+Modbus_UART  EQU  E002H
+Modbus_SlaveID  EQU  E004H
+Mdobus_Ver   EQU   E005H
+
+Modbus_CMD1   EQU  E008H
